@@ -69,7 +69,7 @@ $(document).ready(function() {
 				    content += "<p>Correct!</p>";
 			    } else {
 				    $(element).addClass("incorrect"); 
-				    content += "<p>Sorry. The correct answer is \"" + correctAnswer + "\"</p>";
+				    content += "<p>The correct answer is \"" + correctAnswer + "\"</p>";
 			    }
 		    }
 	    });
