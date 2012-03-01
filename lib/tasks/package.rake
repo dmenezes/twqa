@@ -21,7 +21,8 @@ namespace :package do
     qs = CSV.read(questions_file).collect do |row|
       {:question => row[1],
        :correct_choice => row[2],
-       :choices => [row[2], row[3], row[4], row[5]].sort_by { rand }}
+       :choices => [row[2], row[3], row[4], row[5]].sort_by { rand },
+       :correct_answer_description => row[6]}
     end
 
     json_file = File.expand_path(File.join("public", "questions.json"))

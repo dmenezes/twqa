@@ -1,7 +1,7 @@
 body {
   background-color: #060606;
   margin: 0;
-  font-family: courier new, Arial, sans-serif;
+  font-family: "Courier New", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
@@ -11,6 +11,21 @@ body {
 .container {
   width: 820px; 
 	margin: 20px auto;
+}
+
+h2, #overlay {
+	font-size:18px !important;
+	font-weight:bold;
+}
+
+#overlay {
+	display:none;
+	font-family: "Courier New", Arial, sans-serif;
+    font-size: 13px;
+	width:720px;
+	margin:0 20px 40px 20px;
+	color:white;
+	background:black;
 }
 
 .page-header {
@@ -68,6 +83,26 @@ div.options {
 
 }
 
+.btn.incorrect {
+  color: #000000;
+  display: block;
+
+  background-color: #e04d4d;
+  text-decoration: none;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e04d4d), to(#ffa4a4));
+  background-image: -moz-linear-gradient(top, #e04d4d, #ffa4a4);
+  background-image: -ms-linear-gradient(top, #e04d4d, #ffa4a4);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e04d4d), color-stop(100%, #ffa4a4));
+  background-image: -webkit-linear-gradient(top, #e04d4d, #ffa4a4);
+  background-image: -o-linear-gradient(top, #e04d4d, #e04d4d);
+  background-image: linear-gradient(top, #e04d4d, #e04d4d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d5e04d', endColorstr='#d5e04d', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #e04d4d #e04d4d #e04d4d;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
 .btn.large {
   width: 300px;
   font-size: 15px;
@@ -89,10 +124,16 @@ div.options {
   text-align: center;
 }
 
+
 .btn:hover {
   background-position: 0 -15px;
   color: #000;
 }
+
+.btn.incorrect:hover {
+	background-position: 0 0;
+}
+
 .btn:focus {
   outline: 1px dotted #666;
 }
@@ -117,7 +158,16 @@ div.options {
   text-decoration: none;
 }
 
+#continue {
+	margin:0 auto;
+	text-align:center;
+}
+
 footer {
 	background: #000 url("line2.png") top center no-repeat;
 	padding: 5px 40px;
+}
+
+.correct_answer_description {
+	display:none;
 }

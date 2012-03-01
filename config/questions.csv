@@ -1,10 +1,10 @@
-Dina Menezes,What’s the percentage of colorblind men and women?,8% of men / 1% of women, 8% of men / 8% of women,3% of men / 8% of women,15% of men / 10% of women
-Dina Menezes,How wide is the ideal search box?,27 characters wide,35 characters wide,18 characters wide,22 characters wide
-Dina Menezes,What’s the average number of items our working memory can hold?,7 items,12 items,4 items,9 items
-Dina Menezes,Which of the following is not a recognized reading pattern?,V-Shape,F-Shape,Z-Shape,Gutenberg diagram
-Dina Menezes,What is banner blindness?,Users completely ignoring banners,Too many banners on a single page,Blinking banners causing sight issues,A trend
-Dina Menezes,What’s the maximum number of clicks required to find info on a good Website?,It doesn’t matter,3,4,5
-Dina Menezes,What is Malkovich Bias?,Thinking everyone uses the Web like us,Thinking that you can’t trust anyone,Thinking we’re the center of the world,Thinking we know better than users
-Dina Menezes,"Besides a movie, what is Wizard of Oz?",A user testing method,A design principle,A brainstorming technique,A usability problem
-Dina Menezes,Why is it harder to remove features than to add features?,Losing makes us 2x as miserable as gaining,Expert users love using all features,Features are often tied together,People often use them in unexpected ways
-Dina Menezes,How fast should a system respond in order to feel natural?,Under 50 milliseconds,Under 200 milliseconds,Under 1 second,Under 2 seconds
+Dina Menezes,What’s the percentage of colorblind men and women?,8% of men / 1% of women, 8% of men / 8% of women,3% of men / 8% of women,15% of men / 10% of women,Most colourblind people have difficulty with red-greens or blue yellows. This is why colour should not be the only way of organising content. 
+Dina Menezes,How wide is the ideal search box?,27 characters wide,35 characters wide,18 characters wide,22 characters wide,Most colourblind people have difficulty with red-greens or blue yellows. This is why colour should not be the only way of organising content. 
+Dina Menezes,What’s the average number of items our working memory can hold?,7 items,12 items,4 items,9 items,7 ± 2 to be exact. This is why we try to keep navigation or menus under 7-9 items (George Miller).
+Dina Menezes,Which of the following is not a recognized reading pattern?,V-Shape,F-Shape,Z-Shape,Gutenberg diagram,"F-Shape is for search results, Z-Shape is inherited from print and Gutenberg is the main for Web (Steven Bradley)."
+Dina Menezes,What is banner blindness?,Users completely ignoring banners,Too many banners on a single page,Blinking banners causing sight issues,A trend,Banner efficiency is decreasing. More and more people are consciously or unconsciously stopping to see them.
+Dina Menezes,What’s the maximum number of clicks required to find info on a good Website?,It doesn’t matter,3,4,5,"It’s not the number of clicks that matters, but rather how hard each click is (Steve Krug)."
+Dina Menezes,What is Malkovich Bias?,Thinking everyone uses the Web like us,Thinking that you can’t trust anyone,Thinking we’re the center of the world,Thinking we know better than users,We tend to assume that other people use technology the way we do.
+Dina Menezes,"Besides a movie, what is Wizard of Oz?",A user testing method,A design principle,A brainstorming technique,A usability problem,User-based evaluation of unimplemented technology where a human or team is simulating some or all the responses of the system.
+Dina Menezes,Why is it harder to remove features than to add features?,Losing makes us 2x as miserable as gaining,Expert users love using all features,Features are often tied together,People often use them in unexpected ways,"Loss aversion states that losing something makes us twice as miserable as gaining the same thing makes us happy."
+Dina Menezes,How fast should a system respond in order to feel natural?,Under 50 milliseconds,Under 200 milliseconds,Under 1 second,Under 2 seconds,A system stops feeling responsive if it takes more than 100 milliseconds for it to respond (Jakob Nielsen).
